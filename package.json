@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "chalk": "^5.1.2",
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "fast-glob": "^3.2.12",
+    "tinify": "^1.7.1"
   }
 }

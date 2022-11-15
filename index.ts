@@ -1,12 +1,17 @@
 import { program } from 'commander';
-import { setKey } from './src/actions';
+import { setKey, upload } from './src/actions';
 
 program
   .name('tpng')
   .version('0.0.1')
   .description('A CLI for tinypng')
   .argument('<images...>', 'Images to upload')
-  .action(() => console.log('no command'));
+  .action((images) => {
+    upload(images).then((success: boolean) => {
+      if (!success) process.exit(1);
+      else process.exit(0);
+    });
+  });
 
 program
   .command('key')
