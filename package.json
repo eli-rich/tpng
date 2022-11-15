@@ -4,8 +4,8 @@
   "type": "module",
   "description": "A command line tool for tinypng.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "tpng": "index.js"
   },
   "keywords": [
     "tinypng",
@@ -16,6 +16,7 @@
     "image"
   ],
   "author": "Eli Richardson",
+  "repository": "https://github.com/eli-rich/tpng",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.9",
