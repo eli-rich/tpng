@@ -1,6 +1,6 @@
 {
   "name": "tpng-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A command line tool for tinypng.",
   "main": "index.js",
