@@ -61,8 +61,6 @@ async function upload(glob) {
   if (!key)
     return false;
   tinify.key = key;
-  console.log(`key: ${key}`);
-  console.log(`paths: ${paths}`);
   const promise = [];
   for (const path of paths) {
     console.log(chalk.yellow(`Uploading ${path}`));
