@@ -1,12 +1,27 @@
 {
   "name": "tpng",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line tool for tinypng.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "tinypng",
+    "cli",
+    "png",
+    "webp",
+    "jpg",
+    "image"
+  ],
+  "author": "Eli Richardson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1"
+  }
 }
